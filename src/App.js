@@ -75,6 +75,7 @@ class App extends React.Component {
           todo={this.state.todo}
           completeTask={this.completeTask}
           clearCompletedTasks={this.clearCompletedTasks}
+          className="todolist-styling"
         />
       </>
     );
